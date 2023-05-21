@@ -1,0 +1,196 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 480
+  ClientWidth = 640
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Label1: TLabel
+    Position.X = 160.000000000000000000
+    Position.Y = 32.000000000000000000
+    Text = 'Calculator'
+    TabOrder = 0
+  end
+  object One: TButton
+    Position.X = 160.000000000000000000
+    Position.Y = 105.000000000000000000
+    Size.Width = 41.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    Text = '1'
+    OnClick = OneClick
+  end
+  object Two: TButton
+    Position.X = 224.000000000000000000
+    Position.Y = 105.000000000000000000
+    Size.Width = 41.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    Text = '2'
+    OnClick = TwoClick
+  end
+  object Three: TButton
+    Position.X = 288.000000000000000000
+    Position.Y = 105.000000000000000000
+    Size.Width = 41.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 3
+    Text = '3'
+    OnClick = ThreeClick
+  end
+  object Four: TButton
+    Position.X = 160.000000000000000000
+    Position.Y = 143.000000000000000000
+    Size.Width = 41.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 4
+    Text = '4'
+    OnClick = FourClick
+  end
+  object Fife: TButton
+    Position.X = 224.000000000000000000
+    Position.Y = 143.000000000000000000
+    Size.Width = 41.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 5
+    Text = '5'
+    OnClick = FifeClick
+  end
+  object Six: TButton
+    Position.X = 288.000000000000000000
+    Position.Y = 143.000000000000000000
+    Size.Width = 41.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 6
+    Text = '6'
+    OnClick = SixClick
+  end
+  object Seven: TButton
+    Position.X = 160.000000000000000000
+    Position.Y = 184.000000000000000000
+    Size.Width = 41.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 7
+    Text = '7'
+    OnClick = SevenClick
+  end
+  object Eight: TButton
+    Position.X = 224.000000000000000000
+    Position.Y = 184.000000000000000000
+    Size.Width = 41.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 8
+    Text = '8'
+    OnClick = EightClick
+  end
+  object Zero: TButton
+    Position.X = 224.000000000000000000
+    Position.Y = 224.000000000000000000
+    Size.Width = 41.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 9
+    Text = '0'
+    OnClick = ZeroClick
+  end
+  object Nine: TButton
+    Position.X = 288.000000000000000000
+    Position.Y = 184.000000000000000000
+    Size.Width = 41.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 10
+    Text = '9'
+    OnClick = NineClick
+  end
+  object Dot: TButton
+    Position.X = 160.000000000000000000
+    Position.Y = 224.000000000000000000
+    Size.Width = 41.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 11
+    Text = '.'
+    OnClick = DotClick
+  end
+  object Plus: TButton
+    Position.X = 353.000000000000000000
+    Position.Y = 105.000000000000000000
+    Size.Width = 41.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 12
+    Text = '+'
+    OnClick = PlusClick
+  end
+  object Minus: TButton
+    Position.X = 353.000000000000000000
+    Position.Y = 143.000000000000000000
+    Size.Width = 41.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 13
+    Text = '-'
+    OnClick = MinusClick
+  end
+  object Multiply: TButton
+    Position.X = 353.000000000000000000
+    Position.Y = 184.000000000000000000
+    Size.Width = 41.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 14
+    Text = '*'
+    OnClick = MultiplyClick
+  end
+  object Divided: TButton
+    Position.X = 353.000000000000000000
+    Position.Y = 224.000000000000000000
+    Size.Width = 41.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 15
+    Text = '/'
+    OnClick = DividedClick
+  end
+  object Equal: TButton
+    Position.X = 288.000000000000000000
+    Position.Y = 224.000000000000000000
+    Size.Width = 41.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 16
+    Text = '='
+    OnClick = EqualClick
+  end
+  object AllClear: TButton
+    Position.X = 353.000000000000000000
+    Position.Y = 48.000000000000000000
+    Size.Width = 41.000000000000000000
+    Size.Height = 32.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 17
+    Text = 'AC'
+    OnClick = AllClearClick
+  end
+  object Display: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 18
+    Position.X = 160.000000000000000000
+    Position.Y = 48.000000000000000000
+    Size.Width = 169.000000000000000000
+    Size.Height = 32.000000000000000000
+    Size.PlatformDefault = False
+  end
+end

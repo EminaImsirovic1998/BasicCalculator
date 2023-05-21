@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2023/05/20 14:11:35.000.535,=C:\Users\emina\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>2023/05/20 14:11:35.000.734,=C:\Users\emina\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>2023/05/20 14:46:03.000.827,C:\Users\emina\Documents\Embarcadero\Studio\Projects\Project1.cbproj=C:\Users\emina\Documents\Embarcadero\Studio\Projects\Project1.cbproj</Transaction>
+    <Transaction>2023/05/21 16:06:00.000.300,C:\Users\emina\Documents\Embarcadero\Studio\Projects\Project1PCH1.h=C:\Users\emina\Desktop\Calculator\Project1PCH2.h</Transaction>
+    <Transaction>2023/05/21 16:06:00.000.340,C:\Users\emina\Documents\Embarcadero\Studio\Projects\Project1.cbproj=C:\Users\emina\Desktop\Calculator\Project1.cbproj</Transaction>
+    <Transaction>2023/05/21 16:06:03.000.789,C:\Users\emina\Desktop\Calculator\Project1.cbproj=C:\Users\emina\Desktop\Calculator\Project1.cbproj</Transaction>
+    <Transaction>2023/05/21 16:06:14.000.153,C:\Users\emina\Documents\Embarcadero\Studio\Projects\Unit1.h=C:\Users\emina\Desktop\Calculator\Unit1.h</Transaction>
+    <Transaction>2023/05/21 16:06:14.000.153,C:\Users\emina\Documents\Embarcadero\Studio\Projects\Unit1.fmx=C:\Users\emina\Desktop\Calculator\Unit1.fmx</Transaction>
+    <Transaction>2023/05/21 16:06:14.000.153,C:\Users\emina\Documents\Embarcadero\Studio\Projects\Unit1.cpp=C:\Users\emina\Desktop\Calculator\Unit1.cpp</Transaction>
+  </Transactions>
+</BorlandProject>
